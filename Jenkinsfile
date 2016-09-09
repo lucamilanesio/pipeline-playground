@@ -1,5 +1,4 @@
 node {
-  git url: 'https://github.com/lucamilanesio/pipeline-playground-project/'
   def v = version()
   if (v) {
     echo "Building version ${v}"
